@@ -1,0 +1,40 @@
+name: 📚 Daily Study Tracker & Auto-Commit
+
+on:
+  schedule:
+    # Runs every day at 06:00 UTC (runs 100% in the GitHub cloud, laptop-free!)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub web interface anytime
+
+permissions:
+  contents: write
+
+jobs:
+  daily-study-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 🚀 Generate Daily Study Streak & Flashcard
+        run: |
+          python scripts/daily_study_generator.py
+
+      - name: 📤 Commit & Push Daily Progress
+        run: |
+          git config --local user.name "Lyba Fatima Nasir"
+          git config --local user.email "lybafatimanasir@gmail.com"
+          git add DAILY_STUDY_LOG.md
+          if ! git diff --staged --quiet; then
+            git commit -m "📚 daily(study-streak): ISTQB CTAL-TAE daily study update [automated]"
+            git push origin main
+          else
+            echo "No changes to commit today."
+          fi

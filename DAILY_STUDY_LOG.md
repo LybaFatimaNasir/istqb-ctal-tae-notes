@@ -4,12 +4,28 @@
 
 | Current Streak | Status | Target Exam |
 | :---: | :---: | :---: |
-| 🔥 **Day 1** | 🟢 Active | ISTQB CTAL-TAE |
+| 🔥 **Day 2** | 🟢 Active | ISTQB CTAL-TAE |
 
 ---
 
 ## 📖 Daily Study History
 
+
+### Day 2 — 2026-11-21: Data-Driven (DDT) vs Keyword-Driven (KDT)
+- **Priority:** 🔴 Priority 1 (High Weight)
+- **Syllabus Chapter:** Chapter 3: Automation Approaches
+- **Deep-Dive Notes:** [Data-Driven (DDT) vs Keyword-Driven (KDT)](docs/priority-1-high-weight/02-chapter3-test-automation-approaches.md)
+- **Daily Key Takeaway:**
+  > DDT separates test logic from external data fixtures (CSV, JSON). KDT represents test steps using action words (Keywords) like LOGIN, CLICK, ASSERT, allowing non-programmers to author tests via spreadsheets while engineers maintain keyword libraries.
+- **❓ Exam Question of the Day:**
+  > *Which approach is optimal when business analysts with no programming background need to author test cases?*
+  <details>
+  <summary>🔍 Click to Reveal Answer</summary>
+  
+  **Answer:** Keyword-Driven Testing (KDT).
+  </details>
+
+---
 ### Day 1 — 2026-11-20: The 4 Layers of gTAA & Layer Boundaries
 - **Priority:** 🔴 Priority 1 (High Weight)
 - **Syllabus Chapter:** Chapter 3: Generic Architecture (gTAA)

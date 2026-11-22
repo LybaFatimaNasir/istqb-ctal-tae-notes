@@ -4,12 +4,28 @@
 
 | Current Streak | Status | Target Exam |
 | :---: | :---: | :---: |
-| 🔥 **Day 2** | 🟢 Active | ISTQB CTAL-TAE |
+| 🔥 **Day 3** | 🟢 Active | ISTQB CTAL-TAE |
 
 ---
 
 ## 📖 Daily Study History
 
+
+### Day 3 — 2026-11-22: Proof of Concept (PoC) vs Pilot Project
+- **Priority:** 🔴 Priority 1 (High Weight)
+- **Syllabus Chapter:** Chapter 2: Preparing for Test Automation
+- **Deep-Dive Notes:** [Proof of Concept (PoC) vs Pilot Project](docs/priority-1-high-weight/03-chapter2-preparing-for-automation.md)
+- **Daily Key Takeaway:**
+  > A PoC verifies technical feasibility (Can the tool click our custom dropdown?). A Pilot Project tests process, standards, naming rules, effort estimation, and team adoption on a real, non-critical project.
+- **❓ Exam Question of the Day:**
+  > *What is the primary objective of a test automation Pilot Project?*
+  <details>
+  <summary>🔍 Click to Reveal Answer</summary>
+  
+  **Answer:** To learn the tool in depth, establish guidelines and standards, and evaluate organizational fit and ROI.
+  </details>
+
+---
 
 ### Day 2 — 2026-11-21: Data-Driven (DDT) vs Keyword-Driven (KDT)
 - **Priority:** 🔴 Priority 1 (High Weight)

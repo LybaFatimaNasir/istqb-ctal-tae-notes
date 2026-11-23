@@ -4,12 +4,28 @@
 
 | Current Streak | Status | Target Exam |
 | :---: | :---: | :---: |
-| 🔥 **Day 3** | 🟢 Active | ISTQB CTAL-TAE |
+| 🔥 **Day 4** | 🟢 Active | ISTQB CTAL-TAE |
 
 ---
 
 ## 📖 Daily Study History
 
+
+### Day 4 — 2026-11-23: False Positives vs False Negatives
+- **Priority:** 🔴 Priority 1 (High Weight)
+- **Syllabus Chapter:** Chapter 7: Verifying the TAS
+- **Deep-Dive Notes:** [False Positives vs False Negatives](docs/priority-1-high-weight/04-chapter7-verifying-the-tas.md)
+- **Daily Key Takeaway:**
+  > False Positive: Test reports FAIL, but SUT is working fine (wastes triage time, destroys trust). False Negative: Test reports PASS, but SUT has a defect (dangerous, defects leak to production).
+- **❓ Exam Question of the Day:**
+  > *Why are False Positives dangerous to an automation team?*
+  <details>
+  <summary>🔍 Click to Reveal Answer</summary>
+  
+  **Answer:** They cause 'cry wolf syndrome'—engineers start ignoring test failures, allowing real defects to pass through.
+  </details>
+
+---
 
 ### Day 3 — 2026-11-22: Proof of Concept (PoC) vs Pilot Project
 - **Priority:** 🔴 Priority 1 (High Weight)

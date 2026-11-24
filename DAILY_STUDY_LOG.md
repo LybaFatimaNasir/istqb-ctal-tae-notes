@@ -4,12 +4,28 @@
 
 | Current Streak | Status | Target Exam |
 | :---: | :---: | :---: |
-| 🔥 **Day 4** | 🟢 Active | ISTQB CTAL-TAE |
+| 🔥 **Day 5** | 🟢 Active | ISTQB CTAL-TAE |
 
 ---
 
 ## 📖 Daily Study History
 
+
+### Day 5 — 2026-11-24: Internal vs External Metrics
+- **Priority:** 🟡 Priority 2 (Medium Weight)
+- **Syllabus Chapter:** Chapter 5: Reporting & Metrics
+- **Deep-Dive Notes:** [Internal vs External Metrics](docs/priority-2-medium-weight/05-chapter5-reporting-and-metrics.md)
+- **Daily Key Takeaway:**
+  > External metrics measure business and product value (time-to-market, defects caught before release). Internal metrics measure TAS health (execution duration, flakiness rate, false positive ratio, script maintenance hours).
+- **❓ Exam Question of the Day:**
+  > *Is 'Flakiness Rate' an internal or external metric?*
+  <details>
+  <summary>🔍 Click to Reveal Answer</summary>
+  
+  **Answer:** Internal metric—it measures the reliability of the test automation solution itself.
+  </details>
+
+---
 
 ### Day 4 — 2026-11-23: False Positives vs False Negatives
 - **Priority:** 🔴 Priority 1 (High Weight)

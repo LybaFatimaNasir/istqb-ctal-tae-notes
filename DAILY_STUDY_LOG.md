@@ -4,12 +4,28 @@
 
 | Current Streak | Status | Target Exam |
 | :---: | :---: | :---: |
-| 🔥 **Day 5** | 🟢 Active | ISTQB CTAL-TAE |
+| 🔥 **Day 6** | 🟢 Active | ISTQB CTAL-TAE |
 
 ---
 
 ## 📖 Daily Study History
 
+
+### Day 6 — 2026-11-25: Mitigating Vendor Lock-in
+- **Priority:** 🟡 Priority 2 (Medium Weight)
+- **Syllabus Chapter:** Chapter 4: Implementation Risks
+- **Deep-Dive Notes:** [Mitigating Vendor Lock-in](docs/priority-2-medium-weight/06-chapter4-risks-and-contingencies.md)
+- **Daily Key Takeaway:**
+  > Vendor lock-in happens when tests depend directly on proprietary tool features. Mitigation: encapsulate all proprietary tool calls inside Layer 4 (Test Adaptation Layer), keeping business test scripts in standard open formats.
+- **❓ Exam Question of the Day:**
+  > *How does the gTAA architecture protect against commercial tool vendor lock-in?*
+  <details>
+  <summary>🔍 Click to Reveal Answer</summary>
+  
+  **Answer:** By isolating tool-specific APIs in Layer 4 adapters, so replacing the tool only requires rewriting adapters.
+  </details>
+
+---
 
 ### Day 5 — 2026-11-24: Internal vs External Metrics
 - **Priority:** 🟡 Priority 2 (Medium Weight)

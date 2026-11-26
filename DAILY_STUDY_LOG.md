@@ -4,12 +4,28 @@
 
 | Current Streak | Status | Target Exam |
 | :---: | :---: | :---: |
-| 🔥 **Day 6** | 🟢 Active | ISTQB CTAL-TAE |
+| 🔥 **Day 7** | 🟢 Active | ISTQB CTAL-TAE |
 
 ---
 
 ## 📖 Daily Study History
 
+
+### Day 7 — 2026-11-26: The Dual-Running Strategy
+- **Priority:** 🟡 Priority 2 (Medium Weight)
+- **Syllabus Chapter:** Chapter 6: Transitioning to Automation
+- **Deep-Dive Notes:** [The Dual-Running Strategy](docs/priority-2-medium-weight/07-chapter6-transitioning-manual-to-auto.md)
+- **Daily Key Takeaway:**
+  > Dual-running executes manual and automated tests side-by-side during the transition phase. This builds confidence, calibrates false results, and ensures release quality before turning off manual regression.
+- **❓ Exam Question of the Day:**
+  > *When can a team safely stop dual-running?*
+  <details>
+  <summary>🔍 Click to Reveal Answer</summary>
+  
+  **Answer:** When the automated suite runs deterministically with near-zero false alarms for consecutive releases.
+  </details>
+
+---
 
 ### Day 6 — 2026-11-25: Mitigating Vendor Lock-in
 - **Priority:** 🟡 Priority 2 (Medium Weight)

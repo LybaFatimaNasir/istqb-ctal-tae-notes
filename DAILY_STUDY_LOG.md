@@ -4,12 +4,28 @@
 
 | Current Streak | Status | Target Exam |
 | :---: | :---: | :---: |
-| 🔥 **Day 7** | 🟢 Active | ISTQB CTAL-TAE |
+| 🔥 **Day 8** | 🟢 Active | ISTQB CTAL-TAE |
 
 ---
 
 ## 📖 Daily Study History
 
+
+### Day 8 — 2026-11-27: Managing Automation Technical Debt
+- **Priority:** 🟢 Priority 3 (Foundational)
+- **Syllabus Chapter:** Chapter 8: Continuous Improvement
+- **Deep-Dive Notes:** [Managing Automation Technical Debt](docs/priority-3-foundational/08-chapter8-continuous-improvement.md)
+- **Daily Key Takeaway:**
+  > Technical debt in automation comes from hardcoded sleeps, duplicated locators, and unmaintained tests. Over time, tests become flaky. Fix it by allocating 15-20% capacity for refactoring and retiring obsolete tests.
+- **❓ Exam Question of the Day:**
+  > *When should an automated test be retired from the regression suite?*
+  <details>
+  <summary>🔍 Click to Reveal Answer</summary>
+  
+  **Answer:** When the feature is removed from SUT, coverage is redundant with lower-level tests, or maintenance exceeds value.
+  </details>
+
+---
 
 ### Day 7 — 2026-11-26: The Dual-Running Strategy
 - **Priority:** 🟡 Priority 2 (Medium Weight)
